@@ -1,0 +1,650 @@
+body {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+}
+
+.wrapper {
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    position: relative;
+    top: -20px;
+    left: -10px;
+    height: 90px;
+    width: 2440px;
+}
+
+header a img {
+    margin-left: 152px;
+    margin-top: 40px;
+    height: 31px;
+    width: 128px;
+}
+
+.title-links {
+    display: flex;
+    margin-top: 43px;
+    margin-left: 300px;
+}
+
+.title-links a{
+    color: white;
+    margin: 34px 40px;
+    font-size: 15px;
+}
+
+.title-links a:hover {
+    color: #ff0;
+}
+
+header button {
+    color: black;
+    background-color: white;
+    margin-top: 37px;
+    margin-left: 31px;
+    font-size: 16px;
+    padding: 9px 20px;
+    letter-spacing: 0.4px;
+    border: 0px solid;
+    border-radius: 15px;
+    transition: background-color 2s ease, border-radius 0.5s ease;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: #ff0;
+    border-radius: 23px;
+}
+
+.hero {
+    background-image: url(./imgs/HEROIMAGE.jpg);
+    width: 103vw;
+    height: 736px;
+    position: relative;
+    left: -10px;
+    top: -20px;
+    background-size: 103vw 736px;            
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overtext {
+    margin-top: 331px;
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;          
+}
+
+.hero h1 {
+    color: white;
+    font-size: 54px;
+    margin-top: 1px;
+    font-weight: 400;
+}
+
+.hero-paragraph {
+    color: #C0C0C0;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.hero div img {
+    width: 294.75px;
+    height: 16px;
+    margin-right: 40px;
+}
+
+.hero div {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.whatwedo {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1708px;
+    position: relative;
+    left: -10px;
+    top: -20px;
+    background-color: black;
+}
+
+.whatwedo div {
+    margin-top: 113px;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.whatwedo div h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.whatwedo div h4 {
+    margin-top: 15px;
+    font-size: 23px;
+    color: #C0C0C0;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.whatwedo-cards-div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -170px;
+}
+
+.whatwedo-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-template-rows: 600px 600px;
+    grid-row-gap: 16px;
+}
+
+.whatwedo-cards div {
+    width: 576px;
+    height: 600px;
+}
+
+.firstcard {
+    background-image: url(./imgs/firstcard.jpg);
+}
+
+.firstcard h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 401px;
+    margin-right: 324px;
+}
+
+.firstcard p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.firstcard button {
+    color: black;
+    background-color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 413px;
+    transition: background-color 2s ease, border-radius 1s ease;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+}
+
+.firstcard button:hover {
+    background-color: #ff0;
+    border-radius: 30px;
+}
+
+.secondcard {
+    background-image: url(./imgs/secondcard.jpg);
+}
+
+.secondcard h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 401px;
+    margin-right: 279px;
+}
+
+.secondcard p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.secondcard button {
+    color: black;
+    background-color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 413px;
+    transition: background-color 2s ease, border-radius 1s ease;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+}
+
+.secondcard button:hover {
+    background-color: #ff0;
+    border-radius: 30px;
+}
+
+.thirdcard {
+    background-image: url(./imgs/thirdcard.jpg);
+}
+
+.thirdcard h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 381px;
+    margin-right: 340px;
+}
+
+.thirdcard p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.thirdcard button {
+    color: black;
+    background-color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 413px;
+    transition: background-color 2s ease, border-radius 1s ease;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+}
+
+.thirdcard button:hover {
+    background-color: #ff0;
+    border-radius: 30px;
+}
+
+.fourthcard {
+    background-image: url(./imgs/fourthcard.jpg);
+}
+
+.fourthcard h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 381px;
+    margin-right: 330px;
+}
+
+.fourthcard p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.fourthcard button {
+    color: black;
+    background-color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 413px;
+    transition: background-color 2s ease, border-radius 1s ease;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+}
+
+.fourthcard button:hover {
+    background-color: #ff0;
+    border-radius: 30px;
+}
+
+.fuji {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+    background-image: url(./imgs/FUJI.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 600px;
+    width: 100vw;
+    position: relative;
+    left: -10px;
+    top: -20px;
+}
+
+
+.fuji-txt h2 {
+    margin-right: 204px;
+    margin-top: 260px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.fuji-txt p {
+    text-align: left;
+    margin-left: 1250px;
+    color: #C0C0C0;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.fuji-img {
+    display: flex;
+    width: 100wv;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-right: 39px;
+}
+
+.fuji-img img {
+    width: 385.125px;
+    height: auto;
+}
+
+.tools {
+    display: flex;
+    height: 540px;
+    width: 100vw;
+    position: relative;
+    left: -10px;
+    top: -20px;
+}
+
+.tools-text {
+    width: 50vw;
+    background-color: black;
+}
+
+.tools-overtext {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 100px;
+    margin-left: 100px;
+    margin-top: 173px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.tools-title {
+    color: white;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.tools-paragraph {
+    margin-left: 100px;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.tools-btn {
+    margin-left: 100px;
+    color: black;
+    background-color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 10px;
+    transition: background-color 2s ease, border-radius 1s ease;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+    margin-top: 20px;
+}
+
+.tools-btn:hover {
+    background-color: #ff0;
+    border-radius: 30px;
+}
+
+.tools-img {
+    width: 50vw;
+    background-image: url("./imgs/IMAGEfe.jpg");
+    background-size: 50vw 540px;
+    background-repeat: no-repeat;
+}
+
+.tools-img div {
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+.description-img {
+    width: 385.125px;
+    height: auto;
+    margin-top: 484px;
+    margin-right: 30px;
+}
+
+.monstera {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+    background-image: url(./imgs/IMAGEmonstera.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 600px;
+    height: 600px;
+    width: 100vw;
+    position: relative;
+    left: -10px;
+    top: -20px;
+}
+
+.monstera-txt h2 {
+    margin-right: 204px;
+    margin-top: 260px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    line-height: 20px;
+    text-transform: uppercase
+}
+
+.monstera-txt p {
+    text-align: left;
+    margin-left: 1250px;
+    color: #C0C0C0;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.monstera-img {
+    display: flex;
+    width: 100wv;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-right: 39px;
+}
+
+.monstera-img img {
+    width: 385.125px;
+    height: 24px;
+}
+
+.companies {
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    left: -10px;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.companies-txt {
+    display: flex;
+    width: 100vw;
+    margin-top: 113px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.companies-txt h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.companies-txt h3 {
+    color: #C0C0C0;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.companies-logos {
+    margin-top: 40px;
+}
+
+.companies-logos img {
+    width: 1168px;
+    height: 158px;
+}
+
+.himalaya {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+    background-image: url(./imgs/himalai.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 600px;
+    height: 600px;
+    width: 100vw;
+    position: relative;
+    left: -10px;
+    top: -40px;
+}
+
+.himalaya-txt h2 {
+    margin-right: 204px;
+    margin-top: 260px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.himalaya-txt p {
+    text-align: left;
+    margin-left: 1250px;
+    color: #C0C0C0;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.himalaya-img {
+    display: flex;
+    width: 100wv;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-right: 39px;
+}
+
+.himalaya-img img {
+    width: 385.125px;
+    height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    width: 100vw;
+    height: 504px;
+    position: relative;
+    left: -10px;
+    top: -40px;
+}
+
+footer h2 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+footer h3 {
+    color: #C0C0C0;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+footer button {
+    color: black;
+    background-color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 10px;
+    transition: background-color 2s ease, border-radius 1s ease;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+}
+
+footer button:hover {
+    background-color: #ff0;
+    border-radius: 30px;
+}
